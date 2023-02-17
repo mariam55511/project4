@@ -1,0 +1,175 @@
+/* Generaal */
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+}
+h2,h3,h4,h5{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.background{
+background-color: black;
+color:white;
+
+}
+.text-color{
+    color:#ffc404;
+}
+.background-text{
+    background-color:#ffc404 ;
+    color:white;
+   
+}
+.background-text2{
+    background-color: #ffc404;
+    color:black;
+}
+
+/* home section */
+
+.header p {
+    font-weight: bold;
+}
+.navbar-brand{
+    color:#ffc404;
+}
+.nav-link{
+    color:white;
+}
+.icons{
+    width:35px;
+    height:35px;
+    border-radius: 50% 50%;
+    border:2px white solid;
+    
+}
+
+.w-10{
+    width:45px;
+    height:45px;
+    padding-right: 5px;
+}
+.nav{
+    width:100%;
+    position: fixed;
+    top:5%;
+    left:0px;
+    z-index:9999999;
+
+}
+
+.home-page{
+    min-height: 100vh;
+    background-image: url('../images/banner.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* find section */
+
+.caption{
+    max-width: 1200px;
+}
+
+/* visiting store */
+.visiting h3{
+    font-size: xx-large;
+}
+.visiting h2{
+    font-size: 40px;
+}
+
+.layer{
+    position:absolute;
+    top:20px;
+    left:20px;
+    background-color: #1a1b1b96;
+    border-radius:10px;
+    color:white;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+
+
+/* offer section */
+.offer{
+    width:50%;
+}
+.buttn{
+    width:30%;
+}
+
+
+/* achievements section */
+
+.achievement-content h3{
+font-size: 45px;
+padding-bottom: 10px;
+}
+
+/* contact section */
+
+.contact-form{
+    box-shadow: #ffc404 5px 5px 10px,-5px -5px 10px #ffc404;
+    border-radius: 15px;
+    
+}
+.contact-form button{
+    font-size: large;
+    letter-spacing: 5px;
+}
+.contact{
+    background-image: url('../images/contactus.jpg') ;
+    background-size: cover;
+    background-position: center center;
+}
+.contact-content p{
+    max-width: 700px;
+}
+.big-layer{
+   
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color: #3c59648a;
+}
+
+/* line */
+.big-line{
+    height: 2%;
+}
+/* footer */
+.footer{
+    font-size: large;
+    border-top: #ffc404 10px !important;
+}
+.footer-sec a{
+text-decoration: none;
+color:white;
+padding-block: 5px;
+}
+.cards img{
+    width:100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+.footer-sec button{
+    width:120px;
+}
+
+.email ::placeholder{
+    opacity:1;
+    color:white;
+}
